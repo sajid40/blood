@@ -1,0 +1,39 @@
+.Login {
+    margin-top: 50px;
+  display: flex;
+  
+  flex-direction: column;
+  background-color: gray;
+  height: 250px;
+  width: 30%;
+  color: black;
+  margin: auto;
+}
+.Login >input{
+    width: 50%;
+    margin-left: 23%;
+    
+    padding: 10px 5px;
+    display: block;
+    
+}
+.Login >label{
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.btnSubmit {
+    border: none;
+    background-color: teal;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+  }
+  .doesnotmatch{
+      color: black;
+  }

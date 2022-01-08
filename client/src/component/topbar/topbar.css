@@ -1,0 +1,42 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 20%;
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.navbar {
+    width: 75%;
+    margin-top: 45px;
+}
+.navbar > ul {
+    display: flex;
+    align-items: flex-start;
+}
+li {
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    /* background-color: pink; */
+    /* padding: 10px 20px; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+}
+.navbar ul li a {
+    padding: 1rem 2rem;
+    /* background-color: red; */
+    background-color: pink;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+}

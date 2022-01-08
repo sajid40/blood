@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 200px;
+  width: 150px;
+}
+.image{
+    padding-bottom: 2rem;
+    
+}
+.desc{
+    padding-left: 5rem;
+    color: rgb(113, 113, 197);
+}
+.desc h4{
+    color: gray;
+    font-style: italic;
+}
